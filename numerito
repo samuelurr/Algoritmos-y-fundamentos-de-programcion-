@@ -1,0 +1,6 @@
+Algoritmo mi_algoritmo
+  Definir num1 Como Entero
+
+  Escribir "Ingrese un numero: ";
+  Leer num1;
+FinAlgoritmo
