@@ -1,0 +1,4 @@
+Algoritmo mi_algoritmo
+ Definir num1 Como Entero;
+ Leer num1
+FinAlgoritmo
