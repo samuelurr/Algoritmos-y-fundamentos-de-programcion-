@@ -1,0 +1,13 @@
+Algoritmo ejercicio
+	Definir a, b, c, d Como Entero
+	Escribir "Ingrese los numeros uno por uno"
+	Leer a
+	Leer b
+	Leer c
+	leer d
+	Escribir (a < 17) y (b < 17)
+	Escribir (a = b) y (b = c) y (a <> d)
+	Escribir (a < b) y (b < c) y (a < d) y (d < c)
+	Escribir (a = b) o (b = c ) o (a = c)
+	
+FinAlgoritmo
