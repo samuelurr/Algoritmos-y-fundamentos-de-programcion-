@@ -1,0 +1,9 @@
+Algoritmo funciones_matemnaticas
+	Escribir "Raiz cuadradda de 9: ", rc(9);
+	Escribir "valor absolito de -3: ", abs(-3);
+	Escribir "Seno de 90 de grados: ", sen(90 * pi /180);
+	Escribir "truncamos 3.7: ", trunc(3.7);
+	Escribir "redondeamos 2.7: ", redon(2.7);
+	Escribir "un numero al del 0 al 9: ", azar(10);
+	Escribir "un numero al azar entre 10 y 20: ", azar(10,20);
+FinAlgoritmo
