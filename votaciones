@@ -1,0 +1,29 @@
+Algoritmo votaciones
+	Definir heidy, julian, kevin Como Entero
+	Escribir "Edad de Heidy"
+	Leer heidy
+	Escribir "Edad de Julian"
+	Leer julian
+	Escribir "Edad de kevin"
+	Leer kevin 
+	
+	//condicion de heidy
+	si (heidy >= 20) Entonces
+		Escribir "Felicidades heidy, puede votar"
+	SiNo
+		Escribir "Heidy usted es menor de edad"
+	FinSi
+	//condicion de julian 
+	si (julian >= 20) Entonces
+		Escribir "Felicidades julian, puede votar"
+	SiNo
+		Escribir "julian usted es menor de edad"
+	FinSi
+	//condicion de kevin
+	si (kevin >= 20) Entonces
+		Escribir "Felicidades kevin, puede votar"
+	SiNo
+		Escribir "kevin usted es menor de edad"
+	FinSi
+	
+FinAlgoritmo
