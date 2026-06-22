@@ -1,0 +1,61 @@
+Algoritmo MiniMarket_El_Ahorro
+	// 1. Definición de variables globales y contadores
+	Definir total_productos, i Como Entero
+	Definir total_a_pagar Como Real
+	
+	Escribir "=== MINI-MARKET 'EL AHORRO' ==="
+	Escribir "¿Cuántos productos diferentes lleva el cliente?"
+	Leer total_productos
+	Escribir ""
+	
+	// 2. Creación de los Arreglos basados en la cantidad ingresada
+	Definir nombres Como Caracter
+	Definir cantidades Como Entero
+	Definir precios, subtotales Como Real
+	
+	Dimension nombres[total_productos]
+	Dimension cantidades[total_productos]
+	Dimension precios[total_productos]
+	Dimension subtotales[total_productos]
+	
+	total_a_pagar <- 0
+	
+	// 3. Bucle para registrar los datos de cada producto
+	Para i <- 1 Hasta total_productos Con Paso 1 Hacer
+		Escribir "--- REGISTRO DEL PRODUCTO #", i, " ---"
+		Escribir "Nombre del producto: "
+		Leer nombres[i]
+		Escribir "Cantidad a llevar: "
+		Leer cantidades[i]
+		Escribir "Precio unitario: $"
+		Leer precios[i]
+		
+		// Calculamos el subtotal de este producto y lo acumulamos al total
+		subtotales[i] <- cantidades[i] * precios[i]
+		total_a_pagar <- total_a_pagar + subtotales[i]
+		Escribir ""
+	FinPara
+	
+	// 4. Limpieza de pantalla para la sección de facturación
+	Limpiar Pantalla
+	
+	// 5. Impresión de la factura detallada
+	Escribir "========================================================="
+	Escribir "                MINI-MARKET 'EL AHORRO'                  "
+	Escribir "                   FACTURA DE VENTA                      "
+	Escribir "========================================================="
+	Escribir "Cant.   | Cantidad x Producto           | Subtotal"
+	Escribir "---------------------------------------------------------"
+	
+	// Recorremos los arreglos para listar los productos en la factura
+	Para i <- 1 Hasta total_productos Con Paso 1 Hacer
+		Escribir nombres[i], "   | ", cantidades[i], " x $", precios[i], "   | $", subtotales[i]
+	FinPara
+	
+	Escribir "---------------------------------------------------------"
+	Escribir "TOTAL A PAGAR: .................................. $", total_a_pagar
+	Escribir "========================================================="
+	Escribir "          ¡Gracias por su compra, vuelva pronto!          "
+	Escribir "========================================================="
+	
+FinAlgoritmo
