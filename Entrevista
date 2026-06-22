@@ -1,0 +1,10 @@
+Algoritmo entrevista
+	Definir a Como Entero
+	Leer  a
+	si a >= 20 Entonces
+		Escribir "Responda la siguente encuesta"
+	SiNo
+		Escribir "Usted no puede ser entrevistado"
+	FinSi
+	
+FinAlgoritmo
