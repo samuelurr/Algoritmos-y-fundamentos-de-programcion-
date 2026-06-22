@@ -1,0 +1,31 @@
+Algoritmo ejercicio_16
+	Limpiar Pantalla
+	
+	Escribir ""
+	Escribir "captura de numeros ..."
+	Escribir ""
+	
+	Definir cantNumeros Como Entero
+	Escribir "cuantos numeros quieres capturar ?" Sin Saltar
+	Leer cantNumeros
+	
+	Definir M Como Entero
+	dimension vNumero[cantNumeros]
+	Escribir ""
+	Escribir "captura de numeros ..."
+	Escribir ""
+	Escribir "presione para continuar ..."
+	Esperar Tecla
+	
+	Escribir ""
+	Para M <- 1 Hasta cantNumeros Con Paso 1 Hacer
+		Escribir "cual es el elemento en la posicion ", M, " ?" Sin Saltar
+		Leer vNumero[M]
+	FinPara
+	
+	Escribir ""
+	Escribir "presione para continuar ..."
+	Esperar Tecla
+	Limpiar Pantalla
+	
+FinAlgoritmo
