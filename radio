@@ -1,0 +1,9 @@
+Algoritmo mi_algoritmo
+  Definir a Como Entero
+  Definir p Como Real
+  p = 3.1416;
+  Escribir "Ingrese su radio"
+  Leer a;
+  Escribir "su area es: "p*a^2
+  
+FinAlgoritmo
