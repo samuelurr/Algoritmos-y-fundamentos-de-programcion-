@@ -1,6 +1,6 @@
 Algoritmo entrevista
 	Definir a Como Entero
-	Leer  a
+	a = 17
 	si a >= 20 Entonces
 		Escribir "Responda la siguente encuesta"
 	SiNo
