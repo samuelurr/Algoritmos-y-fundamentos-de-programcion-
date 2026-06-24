@@ -1,0 +1,10 @@
+Algoritmo contar_con_forv2
+	// bucle para, con este se va a contar de 0 a 33 de 3 em 3
+	Para i <- 0 Hasta 33 Con Paso 3 Hacer
+		Escribir i 
+	FinPara
+	Escribir "presione espacio para salir"
+	Esperar Tecla
+	Limpiar Pantalla
+	
+FinAlgoritmo
