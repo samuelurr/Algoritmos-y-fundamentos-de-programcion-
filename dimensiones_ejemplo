@@ -1,0 +1,17 @@
+Algoritmo dimensiones_ejemplo
+	Definir num, i Como Entero;
+	//se crea la dimension 
+	dimension num[5]
+	
+	// se hace este bucle para pedirle al usuario numeros y hacer el conteo
+	Para i <- 1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Ingrese el numero ", i
+		Leer num[i]
+		
+	FinPara
+	
+	para i <- 1 Hasta 5 Con Paso 1 Hacer
+		Escribir num[i]
+	FinPara
+	
+FinAlgoritmo
